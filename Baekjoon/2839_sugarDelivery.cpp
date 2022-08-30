@@ -20,7 +20,7 @@ int main() {
 			threeKiloCount = restKilo / 3;
 			if (restKilo % 3 == 0) {
 				int totalCount = fiveKiloCount + threeKiloCount;
-				cout << totalCount << "\n";
+				cout << totalCount << endl;
 				return 0;
 			}
 		}

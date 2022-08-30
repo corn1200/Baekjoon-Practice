@@ -18,7 +18,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="9012_bracket.cpp">
+    <ClCompile Include="2839_sugarDelivery.cpp">
+      <Filter>소스 파일\dynamic_programming</Filter>
+    </ClCompile>
+    <ClCompile Include="1463_makeItOne.cpp">
       <Filter>소스 파일\dynamic_programming</Filter>
     </ClCompile>
   </ItemGroup>
