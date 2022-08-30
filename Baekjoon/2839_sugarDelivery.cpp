@@ -17,7 +17,6 @@ int main() {
 		for (fiveKiloCount; fiveKiloCount > -1; fiveKiloCount--)
 		{
 			restKilo = totalKilogram - (fiveKiloCount * 5);
-			//cout << restKilo << "\n";
 			threeKiloCount = restKilo / 3;
 			if (restKilo % 3 == 0) {
 				int totalCount = fiveKiloCount + threeKiloCount;
