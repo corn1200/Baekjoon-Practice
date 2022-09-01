@@ -13,16 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\dynamic_programming">
-      <UniqueIdentifier>{221cc90b-a7ef-41a9-a5e7-34ceacaa0ca0}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2839_sugarDelivery.cpp">
-      <Filter>소스 파일\dynamic_programming</Filter>
+    <ClCompile Include="dynamic_programming\1463_makeItOne.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1463_makeItOne.cpp">
-      <Filter>소스 파일\dynamic_programming</Filter>
+    <ClCompile Include="dynamic_programming\2839_sugarDelivery.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
