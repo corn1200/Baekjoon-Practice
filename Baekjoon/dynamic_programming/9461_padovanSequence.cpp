@@ -6,7 +6,7 @@ int N, T;
 
 long long padovan(int N) {
 	if (padovanMemory[N] == 0) {
-		padovanMemory[N] = padovan(N - 2) + padovan(N - 3);
+		padovanMemory[N] = padovan(N - 5) + padovan(N - 1);
 	}
 	return padovanMemory[N];
 }
