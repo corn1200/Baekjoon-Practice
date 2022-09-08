@@ -132,6 +132,7 @@
     </ClCompile>
     <ClCompile Include="dynamic_programming\1904_tile01.cpp">
       <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</SDLCheck>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="dynamic_programming\24416_fibonacciNumber1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
@@ -142,6 +143,7 @@
     <ClCompile Include="dynamic_programming\9184_excitingFunctionExecution.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="dynamic_programming\9461_padovanSequence.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h" />
